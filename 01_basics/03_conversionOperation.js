@@ -60,7 +60,6 @@ let booleanIsLoggedIn1 = Boolean(isLoggedIn1)
 console.log(booleanIsLoggedIn1); // it will give true as output which proof of when we convert 1 to boolean.
 // it will give true value in boolean
 
-
 // Case2 - covert "" empty string to boolean
 
 let isLoggedIn2 = "" // instead of empty string if we put any value like name then it will give true value
@@ -78,3 +77,46 @@ let someNumber = 22
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber); // will give string as output cause number is converted to string
+
+// ***************************************** Operations **************************************************
+
+//video no. 7
+
+// +, -, *, /, % these are some operations
+
+let value = 3
+let negValue = -value
+console.log(negValue); //will give negative value because we are assigned it -ve value.
+
+console.log(3 + 3);
+console.log(3-3);
+console.log(3*3);
+console.log(2**3);
+console.log(3 / 3);
+console.log(3 % 3);
+
+let str1 = "hello"
+let str2 = " Tannu"
+
+let str3 = str1 + str2 // It is very basic. we can use to add only. To print both string together 
+console.log(str3); 
+
+console.log("1" + 2); // output 12
+console.log(1 + "2"); // output 12
+console.log("1" + 2 + 2); // output 122, if first one is string it consider all after this as string
+console.log(1 + 2 + "2"); //output 32 , if first one is integer it consider all after this as integer.
+console.log(3 + 4 * 5 % 3); // output
+console.log((3 + 4) * 5 % 3); //output 
+
+console.log(true);
+console.log(+true); //instead of this is we try to do do this console.log(true+); this will throw an error
+console.log("");
+console.log(+"");
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2 
+
+let gamechanger = 100
+gamechanger++; // ++gamechanger, here both prefix and postfix show no difference but in genral both are different.
+console.log(gameCounter);
