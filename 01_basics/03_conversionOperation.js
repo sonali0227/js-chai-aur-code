@@ -68,7 +68,7 @@ console.log(booleanIsLoggedIn2); // will give false as output
 
 /* 1 => true; 0 => false
  "" => false
- "Tannue" => true
+ "Tannu" => true
  */
 
 // Case 3 - Number to string
